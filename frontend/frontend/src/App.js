@@ -1,0 +1,15 @@
+import React from "react";
+import TaskForm from "./TaskForm";
+import TaskList from "./TaskList";
+
+function App() {
+  return (
+    <div style={{ textAlign: "center" }}>
+      <h1>Task Manager</h1>
+      <TaskForm />
+      <TaskList />
+    </div>
+  );
+}
+
+export default App;
